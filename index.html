@@ -1,10 +1,32 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Program</title>
+    <title>Chat Game</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="center-box">
+            <header>
+                <h1>Chat Game</h1>
+            </header>
+            <section class="main-content">
+                <div class="question">
+                    Hello my friend! Welcome to the chat game. I am ready to talk about anything you like.<br>
+                    What topic or question do you want us to discuss?
+                </div>
+                <input type="text" class="form-control input-question" placeholder="question ....." />
+                <button class="btn">Ask Me</button>
+                <div class="message"></div>
+            </section>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
